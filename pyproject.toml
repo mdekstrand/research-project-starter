@@ -9,23 +9,23 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = "==3.12.*"
 dependencies = [
-    # put the project code's dependencies here
+  # put the project code's dependencies here
 ]
 
 [dependency-groups]
 # development dependencies for working on the code, but are not needed to run it
 dev = [
-    # linting and formatting support
-    "pre-commit ~= 4.0",
-    "ruff >=0.8",
-    # ipython tools for interaction
-    "ipython >=8",
-    "jupyterlab >=3",
-    # tools for inspecting common data files
-    "parquet-tools >=0.2",
-    "visidata >=3",
-    # this is super useful for profiling code
-    "line_profiler ~=4.1; platform_machine != 'aarch64'",
+  # linting and formatting support
+  "pre-commit ~= 4.0",
+  "ruff >=0.8",
+  # ipython tools for interaction
+  "ipython >=8",
+  "jupyterlab >=3",
+  # tools for inspecting common data files
+  "parquet-tools >=0.2",
+  "visidata >=3",
+  # this is super useful for profiling code
+  "line_profiler ~=4.1; platform_machine != 'aarch64'",
 ]
 
 [tool.uv]
