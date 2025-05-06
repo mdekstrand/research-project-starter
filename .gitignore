@@ -1,19 +1,35 @@
-__pycache__
+# logging and outputs, profiles, etc.
 *.log
 *.out
-*.pyc
 *.prof
 *.lprof
-.ipynb_checkpoints/
-*.html
-/scratch/
-/models/
-/output/
-*.parquet
-*.csv
-*.csv.gz
-*.duckdb
+perf.data*
 
-# pixi environments
-.pixi
+# common temp files
+*.wal
+*.wal-log
+*.tmp
+
+# python outputs and caches
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+/.quarto/
+*.quarto_ipynb
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.o
+*.obj
+*.a
+*.lib
+
+# software environments and outputs
+/.venv/
+/.pixi/
+/build/
+/dist/
+/_site/
 *.egg-info
