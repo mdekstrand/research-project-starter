@@ -50,3 +50,26 @@ This template is designed to work with the following tools:
     ```console
     $ pre-commit install
     ```
+
+## Directory Layout
+
+My usual layout is like this:
+
+-   `data/`: contains the project's *input* data, usually tracked with DVC.
+
+-   `src/`: contains the source code specific to this project.  There is usually
+    a Python package in this directory, e.g. `myproject`, to house the code and
+    make it easier to input.
+
+    Sometimes the scripts live under `src`, either in the project package or in
+    a separate `scripts` directory; other times, however, they live in the
+    directories in which they do their work.  Whatever is clearest for a
+    particular project.
+
+    With the package in `src/`, and automatically set up into the virtual
+    environment with `uv sync`, its contents can be imported by scripts and
+    notebooks throughout the project repository.
+
+-   Other directories to contain different classes of outputs.  Sometimes this
+    is organized by data set; for a project with a single data set, it is often
+    organized by stage, such as `models/` and `recommendations/`.
