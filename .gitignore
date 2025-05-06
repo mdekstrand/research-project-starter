@@ -1,0 +1,19 @@
+__pycache__
+*.log
+*.out
+*.pyc
+*.prof
+*.lprof
+.ipynb_checkpoints/
+*.html
+/scratch/
+/models/
+/output/
+*.parquet
+*.csv
+*.csv.gz
+*.duckdb
+
+# pixi environments
+.pixi
+*.egg-info
