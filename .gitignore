@@ -33,3 +33,9 @@ __pycache__/
 /dist/
 /_site/
 *.egg-info
+
+# misc scratch files
+*.DS_Store
+.*.swp
+Thumbs.db
+*~
