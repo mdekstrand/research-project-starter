@@ -1,3 +1,8 @@
+# local configuration files
+.envrc
+mise.local.toml
+mise.*.local.toml
+
 # logging and outputs, profiles, etc.
 *.log
 *.out
