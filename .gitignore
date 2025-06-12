@@ -1,7 +1,7 @@
 # local configuration files
+.env
 .envrc
-mise.local.toml
-mise.*.local.toml
+*.local.toml
 
 # logging and outputs, profiles, etc.
 *.log
